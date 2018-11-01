@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  if word.matzch(/\w+ a||e||i||o||u/)
+  if word.match(/\w+ a||e||i||o||u/)
     return true
   else
     return false
